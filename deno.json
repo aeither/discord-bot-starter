@@ -1,0 +1,33 @@
+{
+  "tasks": {
+    "dev": "deno run -A --watch mod.ts",
+    "dev:reload": "deno run -A --watch --reload mod.ts"
+  },
+  "lint": {
+    "files": {
+      "include": ["src/"]
+    },
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["ban-untagged-todo"],
+      "exclude": ["no-unused-vars"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": ["src/"]
+    },
+    "options": {
+      "semiColons": false,
+      "singleQuote": true,
+      "indentWidth": 2,
+      "lineWidth": 80,
+      "proseWrap": "preserve"
+    }
+  },
+  "test": {
+    "files": {
+      "include": ["src/"]
+    }
+  }
+}
