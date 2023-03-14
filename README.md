@@ -10,4 +10,4 @@ Just rename `.env.example` to `.env` and fill it with your bot token.
 
 ## Run Bot
 
-- deno run dev
+- deno task dev
