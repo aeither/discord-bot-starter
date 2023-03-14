@@ -8,6 +8,10 @@ Make sure to install the latest version when you use it.
 
 Just rename `.env.example` to `.env` and fill it with your bot token.
 
+```bash
+cp .env.example .env.local
+```
+
 ## Run Bot
 
 ```bash
