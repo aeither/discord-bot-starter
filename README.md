@@ -1,6 +1,6 @@
 # Minimal Bot Template
 
-Just the minimum to get a working bot using interactions.
+Just the minimum discordeno + deno bot to get a working bot using interactions.
 
 Make sure to install the latest version when you use it.
 
@@ -17,3 +17,5 @@ cp .env.example .env.local
 ```bash
 deno task dev
 ```
+
+
